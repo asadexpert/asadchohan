@@ -11,9 +11,9 @@ $(function(){
 });
 
 function $$(selector, context) {
-	context = context || document;
-	var elements = context.querySelectorAll(selector);
-	return Array.prototype.slice.call(elements);
+  context = context || document;
+  var elements = context.querySelectorAll(selector);
+  return Array.prototype.slice.call(elements);
 } 
 
 $$('.pie').forEach(function(pie) {
@@ -26,7 +26,7 @@ $$('.pie').forEach(function(pie) {
   circle.setAttribute("cx", 16);
   circle.setAttribute("cy", 16);
   circle.setAttribute("stroke-dasharray", p + " 100");
-  circle.setAttribute('class', 'outer')
+  circle.setAttribute('class', 'outer');
   svg.setAttribute("viewBox", "0 0 32 32");
   title.textContent = pie.textContent;
   pie.textContent = '';
