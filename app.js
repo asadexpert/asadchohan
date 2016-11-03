@@ -1,4 +1,4 @@
-$(function(){
+$(function (){
   $('.the-experienced-role').typed({
     stringsElement: $('.the-experienced-roles'),
     loop: true,
