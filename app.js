@@ -1,3 +1,4 @@
+<script type="text/javascript">
 $(function(){
   $('.the-experienced-role').typed({
     stringsElement: $('.the-experienced-roles'),
