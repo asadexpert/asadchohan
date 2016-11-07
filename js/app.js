@@ -9,7 +9,7 @@ $(function (){
     typeSpeed: 25
   });
 });
-
+/*
 function $$(selector, context) {
   context = context || document;
   var elements = context.querySelectorAll(selector);
@@ -42,3 +42,4 @@ $$('.pie').forEach(function(pie) {
   svg.appendChild(innerCircle);
   pie.appendChild(svg);
 });
+*/
