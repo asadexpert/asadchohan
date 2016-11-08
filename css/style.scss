@@ -213,8 +213,8 @@ $num-cols: 9;
     background-color: #00bd9c;
   }
 
-  &[data-title="resume"] {
-    background-color: #2c97de;
+  &[data-title="linkedin"] {
+    background-color: #4875B4;
   }
 
   &[data-title="portfolio"] {
@@ -225,7 +225,7 @@ $num-cols: 9;
     background-color: #e87e03;
   }
 
-  &[data-title="feedback"] {
+  &[data-title="codepen"] {
     background-color: #e94b35;
   }
 

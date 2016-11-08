@@ -157,13 +157,13 @@ h3 {
     text-transform: uppercase; }
   .toc .col[data-title="home"] {
     background-color: #00bd9c; }
-  .toc .col[data-title="resume"] {
-    background-color: #2c97de; }
+  .toc .col[data-title="linkedin"] {
+    background-color: #4875B4; }
   .toc .col[data-title="portfolio"] {
     background-color: #9c56b8; }
   .toc .col[data-title="contacts"] {
     background-color: #e87e03; }
-  .toc .col[data-title="feedback"] {
+  .toc .col[data-title="codepen"] {
     background-color: #e94b35; }
   .toc .col[data-title="blog"] {
     background-color: #daa900; }
