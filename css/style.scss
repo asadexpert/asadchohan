@@ -32,7 +32,7 @@
     linear-gradient(scale-color($base, $lightness: 3%) 25%, scale-color($base, $lightness: 2%) 25%, scale-color($base, $lightness: 2%) 50%, transparent 50%, transparent 75%, scale-color($base, $lightness: 6%) 75%, scale-color($base, $lightness: 6%));
   background-color: scale-color($base, $lightness: -3%);
   background-size: 1.25rem 1.25rem;
-}
+}    
 
 html {
   background: linear-gradient(to left, #8e9eab , #efeff0);
