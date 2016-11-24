@@ -34,7 +34,7 @@
   background-size: 1.25rem 1.25rem;
 }    
 
-html {
+html, body {
   background: linear-gradient(to left, #8e9eab , #efeff0);
   font-size: 1vw;
   font-family: 'Roboto';
@@ -70,6 +70,7 @@ h3 {
 .container {
   display: flex;
   flex-direction: column;
+	background: #ffffff;
   width: 90%;
   margin: 2rem auto;
   box-shadow: 0 0.25rem 2rem 0 rgba(0, 0, 0, 0.3);
