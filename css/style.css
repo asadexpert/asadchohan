@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,500italic,400italic,300italic,100italic);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300);
-html {
+body {
   background: linear-gradient(to left, #8e9eab, #efeff0);
   font-size: 1vw;
   font-family: 'Roboto';
@@ -22,7 +22,7 @@ h1 {
   font-size: 3.05176rem; }
 
 h2 {
-  font-size: 1.95313rem; }
+  font-size: 1.95312rem; }
 
 h3 {
   font-size: 1.5625rem; }
@@ -30,6 +30,7 @@ h3 {
 .container {
   display: flex;
   flex-direction: column;
+  background: #ffffff;
   width: 90%;
   margin: 2rem auto;
   box-shadow: 0 0.25rem 2rem 0 rgba(0, 0, 0, 0.3); }
@@ -130,6 +131,7 @@ h3 {
   width: 2.5rem;
   height: 100%;
   margin: 1rem; }
+
 .toc svg {
   fill: #fff; }
 
@@ -252,7 +254,7 @@ h3 {
     font-weight: 100;
     display: block;
     opacity: 0.6;
-    content: attr(data-start-date) " ΓÇô " attr(data-end-date); }
+    content: attr(data-start-date) " – " attr(data-end-date); }
   .jobs .job:after {
     text-transform: none;
     font-weight: 100;
@@ -312,6 +314,7 @@ h3 {
     stroke-dasharray: 0 100; }
   to {
     stroke-dasharray: auto 100; } }
+
 .footer {
   background-color: #424242;
   color: #a1a1a1; }
@@ -350,5 +353,3 @@ h3 {
     opacity: 0; }
   100% {
     opacity: 1; } }
-
-/*# sourceMappingURL=style.css.map */
